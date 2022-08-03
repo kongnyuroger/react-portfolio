@@ -1,0 +1,29 @@
+.posts
+{
+   background-color: #EDF7FA;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+.post__hearder
+{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.post__hearder h3
+{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.post__hearder span
+{
+    font-size: 16px;
+    color: #00A8CC;
+    line-height: 50px;
+}
+.posts__cards
+{
+    display: flex;
+    justify-content: space-between;
+}
