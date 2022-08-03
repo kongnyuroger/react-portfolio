@@ -1,0 +1,23 @@
+.postcard
+{
+    width: 418px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.postcard h1
+{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+.postcard__spans
+{
+    display: flex;
+    gap: 2rem;
+}
+.postcard p
+{
+    line-height: 24px;
+}

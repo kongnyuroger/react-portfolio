@@ -1,0 +1,36 @@
+.work-card
+{
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-right: 13px;
+    
+}
+.work-card h1
+{
+    font-size: 30px;
+}
+.work-card .spans
+{
+    display: flex;
+    gap: 1.5rem
+}
+.work-card .spans .span-1
+{
+    background-color: #142850;
+    color: white;
+    padding: 0px 8px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.work-card .spans .span-2
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #8695A4;;
+}

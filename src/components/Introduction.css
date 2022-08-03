@@ -1,0 +1,40 @@
+.introduction
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+.introduction__text-box
+{
+    width: 60%;
+    
+}
+.introduction__text-box__title
+{
+    font-size: 44px;
+    line-height: 60px;
+}
+.introduction__text-box p
+{
+    font-size: 16px;
+    line-height: 24px;
+}
+.introduction__text-box button
+{
+    font-size: 20px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+}
+.introduction__img-box
+{
+    width: 300px;
+}
+.introduction img
+{
+    width: 300px;
+    object-fit:cover;
+}
