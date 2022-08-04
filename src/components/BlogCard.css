@@ -1,24 +1,24 @@
-.work-card
+.blog-card
 {
-    display: flex;
-    gap: 1rem;
+    
     border-bottom: 1px solid #E0E0E0;
     padding-bottom: 1rem;
     margin-top: 2rem;
+    margin: auto;
     margin-bottom: 1rem;
     padding-right: 13px;
     
 }
-.work-card h1
+.blog-card h1
 {
     font-size: 30px;
 }
-.work-card .spans
+.blog-card .spans
 {
     display: flex;
     gap: 1.5rem
 }
-.work-card .spans .span-1
+.blog-card .spans .span-1
 {
     background-color: #142850;
     color: white;
@@ -27,30 +27,10 @@
     font-size: 18px;
     font-weight: 900;
 }
-.work-card .spans .span-2
+.blog-card .spans .span-2
 {
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
     color: #8695A4;;
-}
-
-@media screen and (max-width: 768px)
-{
-    .work-card h1
-    {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 425px)
-{
-    .work-card
-    {
-        flex-direction: column;
-    }
-    .work-card h1
-    {
-        font-size: 24px;
-    }
 }

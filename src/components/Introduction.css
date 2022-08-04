@@ -38,3 +38,39 @@
     width: 300px;
     object-fit:cover;
 }
+
+@media screen and (max-width: 768px)
+{
+    .introduction
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: fit-content;
+        margin-bottom: 50px;
+        
+    }
+    .introduction__text-box
+    {
+        width: 100%;
+        
+    }
+    
+}
+@media screen and (max-width: 425px)
+{
+    .introduction img
+    {
+        width: 200px;
+        object-fit:cover;
+    }
+    .introduction__text-box__title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .introduction__text-box button
+    {
+        margin-left: 40px;
+    }
+}

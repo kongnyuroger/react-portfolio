@@ -27,3 +27,26 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 764px)
+{
+    .post__hearder
+    {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+    .post__hearder span
+    {
+        display: none;
+    }
+    .posts__cards
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
