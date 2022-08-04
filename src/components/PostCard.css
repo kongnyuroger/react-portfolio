@@ -21,3 +21,15 @@
 {
     line-height: 24px;
 }
+
+@media screen and (max-width: 425px)
+{
+    .postcard
+    {
+        width: 365px;   
+    }
+    .postcard h1
+    {
+        font-size: 32;
+    }
+}

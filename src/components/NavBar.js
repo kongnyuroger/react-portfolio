@@ -6,7 +6,7 @@ function NavBar () {
     return (
         <nav className="nav-bar">      
                 <Link to='/' className='nav-bar__links'>Home</Link>
-                <Link to='/block' className='nav-bar__links'>Block</Link>
+                <Link to='/blog' className='nav-bar__links'>Blog</Link>
                 <Link to='/work' className='nav-bar__links'>Work</Link>           
         </nav>
     )

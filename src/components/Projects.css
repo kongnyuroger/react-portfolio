@@ -4,3 +4,16 @@
     font-weight: 400;
     line-height: 25px;
 }
+.active-work-card
+{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 425px)
+{
+    .active-work-card
+    {
+        display: block;
+    }
+}
